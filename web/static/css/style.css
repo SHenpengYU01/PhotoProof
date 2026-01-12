@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.alert-success h4 {
+    color: #155724;
+}
+
+.alert-danger h4 {
+    color: #721c24;
+}
+
+.table td {
+    border-top: none;
+}
+
+.badge {
+    font-size: 0.75em;
+}

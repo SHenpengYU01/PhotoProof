@@ -214,6 +214,11 @@ def process_demo(filepath):
         processing_status[filename] = {
             'status': 'completed',
             'transformed': 'demo_transformed.mp4',
+            'transform_params': {
+                'brightness_change': 0.15,
+                'rotation_angle': 10.0,
+                'crop_ratio': 0.08
+            },
             'result': {
                 'is_authentic': is_authentic,
                 'similarity_score': similarity_score,

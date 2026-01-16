@@ -57,18 +57,20 @@
                                             {% endif %}
                                         </td>
                                     </tr>
+                                    {% if transform_params %}
                                     <tr>
                                         <td>亮度变化:</td>
-                                        <td>{{ "%.2f"|format(transform_params.brightness_change * 100) }}%</td>
+                                        <td>{{ "%.2f"|format(transform_params.get('brightness_change', 0) * 100) }}%</td>
                                     </tr>
                                     <tr>
                                         <td>旋转角度:</td>
-                                        <td>{{ "%.1f"|format(transform_params.rotation_angle) }}°</td>
+                                        <td>{{ "%.1f"|format(transform_params.get('rotation_angle', 0)) }}°</td>
                                     </tr>
                                     <tr>
                                         <td>裁剪比例:</td>
-                                        <td>{{ "%.1f"|format(transform_params.crop_ratio * 100) }}%</td>
+                                        <td>{{ "%.1f"|format(transform_params.get('crop_ratio', 0) * 100) }}%</td>
                                     </tr>
+                                    {% endif %}
                                 </table>
                             </div>
                         </div>

@@ -96,8 +96,8 @@ is_authentic, score, details = auth.verify_video_authenticity(
 ## Web演示结果
 
 - 主页：
-    <img src="report/main.png" width=400>
+    ![1](report/main.png)
 - 自动生成的快速演示：
-    <img src="report/auto.png" width=400>
+    ![2](report/auto.png)
 - 用户自己选择参数测试：
-    <img src="report/self.png" width=400>
+    ![3](report/self.png)

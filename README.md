@@ -92,3 +92,12 @@ is_authentic, score, details = auth.verify_video_authenticity(
 
 - **算法**：OpenCV, NumPy, SciPy
 - **Web**：Flask, Bootstrap 5
+
+## Web演示结果
+
+- 主页：
+    <img src="report/main.png" width=400>
+- 自动生成的快速演示：
+    <img src="report/auto.png" width=400>
+- 用户自己选择参数测试：
+    <img src="report/self.png" width=400>
